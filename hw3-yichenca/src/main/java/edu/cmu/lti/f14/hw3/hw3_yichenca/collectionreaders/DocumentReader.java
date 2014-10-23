@@ -61,6 +61,10 @@ extends JCasAnnotator_ImplBase  {
 		docInfo.add(sResRel);
 		docInfo.add(sResQid);
 		docInfo.add(sResTxt.toString());
+//		for (int j=0; j<docInfo.size();j++)
+//		{
+//			System.out.println(docInfo.get(j));
+//		}
 		return docInfo;
 	}
 
